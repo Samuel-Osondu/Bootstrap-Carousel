@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+/* custom property */
+:root {
+  --blue-color: #047aed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body{
+  overflow: visible;
+  height:100%
+} */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "lato", sans-serif;
+  background-color: var(--blue-color);
+  overflow: visible;
+  align-items: center;
+  height: 115px;
+  overflow: visible;
+}
+
+.first-header {
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-family: "lato", sans-serif;
+  /* margin-top: 20px; */
+  text-align: center;
+  /* margin-bottom: 20px; */
+  color: white;
+  font-size: 90px;
+  /* font-variant: small-caps; */
+  /* border: solid brown 5px; */
+  padding: 0;
+}
+
+.img-first {
+  justify-content: space-around;
+  align-items: center;
+  /* border: solid saddlebrown 5px; */
+  display: flex;
+  line-height: 600px;
+  width: 400px;
+}
+
+.first-head-para {
+  /* border: solid blue 5px; */
+  width: 230px;
+  margin-top: 40px;
+  /* padding: 0; */
+  line-height: 40px;
+  text-align: center;
+}
+
+.first-header:hover {
+  color: green;
+}
+
+.first-para {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  /* border: solid black 5px; */
+}
+
+.first-para:hover {
+  color: red;
+}
+
+.first-img {
+  margin-right: 120px;
+}
+
+.image-two {}
+
+/* .ul-container{
+    display: inline-flex;
+} */
+/* .image-two:hover{
+    background-color: green;
+} */
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .dropdown {
+  outline: none;
+  border: 0;
+} */
+
+.appraisal input[type="dropdown"] {
+  border: 0;
+  outline: none;
+
+  /* width: 20px; */
+}
+
+/* .second-drop{
+    width: 50px;
+} */
+/* .drop-two {
+  width: 5px;
+} */
+select {
+  /* width: 23px; */
+
+  background-color: white;
+  outline: none;
+}
+
+label {
+  margin-right: 3px;
+}
+
+.showcase {
+  font-family: "lato", sans-serif;
+  position: relative;
+  background-color: var(--blue-color);
+  height: 400px;
+  color: white;
+  /* border: solid yellow 5px; */
+}
+
+.showcase h1 {
+  font-size: 40px;
+}
+
+h2 {
+  line-height: 1.2;
+  font-weight: 300;
+  margin: 10px 0;
+  /* border: solid green 5px; */
+}
+
+p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.showcase-container {
+  overflow: ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  /* padding: 80px 60px; */
+  margin-left: 205px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* border: solid red 5px; */
+  height: 100%;
+  max-width: 1100px;
+  padding: 0 10px;
+}
+
+.showcase .showcase-container {
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+}
+
+.showcase-form {
+  color: #333;
+  position: relative;
+  background-color: white;
+
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  /* margin-bottom: 50px; */
+  /* border: solid 5px green; */
+  box-shadow: 0 3px 10px #333;
+  width: 400px;
+  height: 350px;
+  /* line-height: 1.5; */
+}
+
+.showcase-text{
+  position: relative;
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+  z-index: 100;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 2px 4px 6px;
+  box-shadow: 0 3px 2px 3px #333;
+
+  
+}
+
+.showcase .card {
+  /* border: solid red 5px; */
+  top: 60px;
+  z-index: 100;
+  padding: 40px;
+}
+
+.showcase .form-control {
+  /* border: solid black 5px; */
+  margin: 30px 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+  border: 0;
+  border-bottom: solid 1px #b4becb;
+  font-size: 16px;
+  padding: 3px;
+  width: 100%;
+}
+
+input {
+  font-size: 20px;
+  font-weight: 100;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--blue-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  transform: scale(0.9);
+}
+
+.readmore {
+  background-color:var(--blue-color);
+  border: 1px solid white;
+}
+
+/* .myoptions{
+  width: 4px;
+
+} */
+.selectoption{
+ 
+}
+
+.labeldiv{
+
+}
+/* .labelselect{
+  display: flex;
+} */
+/* .btndrop{
+width: 20px;
+} */
+
+
+
+/* Before and after pseodo-selector classes  */
+.showcase::before,
+.showcase::after{
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  height: 100px;
+  left: 0;
+  right: 0;
+  bottom: -96px;
+  transform: skewY(-6deg)
+  
+}
